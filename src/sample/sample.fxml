@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TextField fx:id="et" prefHeight="30.0" prefWidth="300.0" GridPane.rowIndex="1" />
+      <Button fx:id="but1" mnemonicParsing="false" prefHeight="30.0" text="浏览" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="but2" mnemonicParsing="false" prefHeight="30.0" text="确定" GridPane.rowIndex="2" />
+      <Label text="图片路径(根目录)" />
+   </children>
+</GridPane>
